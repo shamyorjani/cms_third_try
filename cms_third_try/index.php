@@ -12,11 +12,7 @@
         <div class="row">
 
             <!-- Blog Entries Column -->
-            <div class="col-md-8">
-
-                
-
-            </div>
+            <?php include "includes/blogs.php";?>
 
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
