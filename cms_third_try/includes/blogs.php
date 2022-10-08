@@ -4,6 +4,21 @@
         <small>Secondary Text</small>
     </h1>
 
+    <?php 
+    
+        $query = "SELECT * FROM posts";
+        $post_query = mysqli_query($connection, $query);
+
+        while($row = mysqli_fetch_assoc($post_query)) {
+            $post_title = $row['post_title'];
+            $post_date = $row['post_date'];
+            $post_author = $row['post_author'];
+            $post_image = $row['post_image'];
+            $post_content = $row['post_content'];
+        }
+    
+    ?>
+
     <!-- First Blog Post -->
     <h2>
         <a href="#">Blog Post Title</a>
