@@ -21,10 +21,10 @@
                 <?php include "includes/blog_search.php";?>
 
                 <!-- Blog Categories Well -->
-                
+                <?php include "includes/blog_categories.php";?>
 
                 <!-- Side Widget Well -->
-                
+                <?php include "includes/blog_side_widget.php";?>
 
             </div>
 
